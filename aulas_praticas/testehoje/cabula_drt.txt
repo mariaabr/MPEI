@@ -1,0 +1,75 @@
+```Prática 1	
+
+----Perguntas Tipo----
+
+-Introdução à determinação de probabilidades
+-Experiências de Bernoulli
+	
+	.ex_2 (Estime a probabilidade de obter 6 caras em 15 lançamentos de uma moeda equilibrada)
+	.ex_3 (Mesma ideia do exercicio anterior, mas com a probabilidade de ter PELO MENOS 6 caras)
+	.ex_4A 
+		FUNÇÃO probsimulação (Estima uma probablidade por simulação)
+		-argumentos de entrada -> p (probabilidade)
+					-> n (número de lançamentos)
+					-> c (número de caras)
+					-> N (números de experiências)
+	.ex_4B (Exemplo da utilização da função probsimulação)
+	.ex_5 (cálculo de probabilidade em séries de experências de Bernoulli)
+		-nchoosek(n,k)*pˆk*(1-p)ˆ(n-k) (experiências de Bernoulli)
+	.ex_6 (Exercício onde existe uma probabilidade de 30% da peça sair defeituosa, numa amostra de 5)
+	.ex_6A (Probabilidade de 3 delas sairem defeituosas)
+	.ex_6B (Probabilidade de sairem no máximo duas defeituosas)
+	.ex_6C (Criar uma função histogram())
+	
+----------------------------------------------------------------------------------------------------------------
+	
+Prática 2	
+
+----Perguntas Tipo----
+
+-Determinar probabilidades mais  específicas
+	
+	.ex_1 (Numa família onde é tão provavél nascer rapaz como nascer rapariga)
+	.ex_1A (Probabilidade de ter um rapaz numa família de 2 fihos)
+	.ex_1C (Probabilidade de numa família escolhida ao acaso de 2 filhos, sendo que 1 é rapaz, o outro ser também)	
+	.ex_1D (Probabilidade de numa família de 2 filhos, sabendo que o primeiro é rapaz, o outro ser também)
+		!!! Verificar diferenças no cálculo da 1C e da 1D , as palavras "ao acaso" e "sabendo" são tricky !!!
+	.ex_1E (Probabilidade de numa família com 5 filhos, sabendo que um deles é rapaz, existir apenas 1 rapaz mais nos restantes filhos)
+		!!! Resolução ígual ao exercício 1C !!!
+	.ex_2 (Probabilidades sobre setas e dardos , onde é garantido que cada bola atinge 1 e apenas 1 alvo)
+		(Baseados na aleatoriadade, ou seja, a probabilidade não existe por causa de linhas como ""lancamentos = randi(m,n,N)"")
+	.ex_3 ()
+	
+----------------------------------------------------------------------------------------------------------------
+
+Prática 3
+
+----Perguntas Tipo----
+
+-Cadeias de Markov
+	 
+	.ex_1 (Um aluno que tem aulas às quartas e às sextas / se tiver ido à ultima aula --> 70%)
+							       / se não tiver ido à ultima aula --> 80%)
+	.ex_1A (Probabilidade de ele estar na aula da quarta feira sabendo que esteve presente na aula da quarta feira anterior)
+	.ex_1B (Probabilidade de faltar à aula de quarta feira //////////////////////////////////777///////////////////////////)
+		!!! A uníca mudança é na matriz de estados, que muda os valores [0,1] , [1,0] !!!
+	.ex_1C (Probabilidade 15 semanas após a inicial)
+	.ex_1D (Probabilidade de ele estar em cada uma das próximas 30 aulas exposta num gráfico)
+	.ex_2 (Divisão de pessoas em grupos e movimentação dos mesmos)
+	.ex_2A (Criação de uma matriz estocática)
+		!!! matriz estocática é quando os valores são sempre positivos e as somas das colunas dá 1 !!!
+	.ex_2B (Criação de um vetor de estados inicial)
+	.ex_2C (Elementos em cada grupo após 30 aulas)
+	.ex_2D (Elementos em cada grupo após 30 aulas, uma vez que começam equitativamente) (matriz de estados [1/3 1/3 1/3])
+	.ex_3 (Verificação/Criação de uma matriz de estados)
+	.ex_3A (Verificar se é estocática)
+	.ex_3B (Probabilidades após 5,10,20 e 100 tentativas da pergunta 3A)
+	.ex_4A (Fazer/Montar uma matriz de estados através de um grafo)
+	.ex_4B (Determinar probabilidades após x transições, tendo uma matriz de estados)
+	.ex_4C (!!!!PROBABILIDADES LIMITE!!!!!)
+	.ex_5 (A influência que o tempo atual tem no tempo do dia seguinte, matriz de transição com dia no y e dia seguinte no x)
+	.ex_5A (Definir matriz de transição no MatLab)
+	.ex_5B (Probablidades de sol no dia 2 e 3 de janeiro sabendo que esteve sol no dia 1)
+	.ex_5C (Sendo o primeiro dia de sol, Determinar o número médio de sol,de núvens e de chuva durante o mês)
+	.ex_5D (Igual a )
+```
